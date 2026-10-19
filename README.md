@@ -14,4 +14,4 @@ EĞER sicaklik>=30 YAZ "Klima çalıştırıldı"
 DEĞİLSE YAZ "Sıcaklık ideal"
 DUR
 ## Kaynakça: IoT Sistemleri ve Sensör Teknolojileri
-http://www.robotiksystem.com/flowchart.jpg
+
