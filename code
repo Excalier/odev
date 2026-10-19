@@ -1,0 +1,33 @@
+
+int mai#include <stdio.h>
+n() {
+    int acikKapali;
+    int sicaklik;
+    
+    printf("Sıcaklığı giriniz: ");
+    scanf("%d", &sicaklik);
+
+    if (sicaklik > 30) {
+        printf("Klima çalıştırıldı.");
+    }
+    else if (sicaklik == 30) {
+        printf("Klima Çalıştırılsın mı? (1=Evet, 2=Hayır): ");
+        scanf("%d", &acikKapali);
+    
+        
+        if (acikKapali == 1) {
+            printf("Klima Açıldı.");
+        }
+        else if (acikKapali == 2) {
+            printf("Klima Kapatıldı.");
+        }
+        else {
+            printf("Geçersiz seçim yaptınız!");
+        }
+    }
+    else {
+        printf("Sıcaklık ideal.");
+    }
+
+    return 0;
+}
